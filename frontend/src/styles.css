@@ -1,0 +1,18 @@
+:root{
+  --bg:#0b0b10; --card:#0f1116;
+  --accent:#f5b400; --muted:#bfc7d3;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui;background:linear-gradient(180deg,#06060a,#0b0b0d);color:#fff}
+.page{max-width:980px;margin:30px auto;padding:16px}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.12));padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.04);box-shadow:0 8px 30px rgba(0,0,0,0.6);margin-bottom:16px}
+.auth .card{max-width:420px;margin:60px auto}
+input{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:#fff;margin:8px 0}
+.btn{padding:8px 12px;border-radius:8px;border:none;background:var(--accent);color:#111;font-weight:700;cursor:pointer}
+.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 12px;border-radius:8px;color:var(--muted)}
+.header{display:flex;justify-content:space-between;align-items:center}
+.row{display:flex;gap:8px}
+.habit{display:flex;justify-content:space-between;align-items:center;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);margin-bottom:8px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(0,0,0,0.08))}
+.habit .title{font-weight:700}
+.small{font-size:12px}
+.muted{color:var(--muted)}
